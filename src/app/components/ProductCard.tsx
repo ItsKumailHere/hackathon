@@ -25,7 +25,7 @@ export function ProductCard({ product }: ProductCardProps) {
           <div className="font-medium text-neutral-900">{product.name}</div>
           <div className="text-neutral-500">{product.description}</div>
         </div>
-        <div className="self-start font-medium text-right text-neutral-900">
+        <div className=" font-medium text-right text-neutral-900">
           {product.price}
         </div>
       </div>

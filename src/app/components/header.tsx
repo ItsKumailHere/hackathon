@@ -17,8 +17,8 @@ export default function header() {
       <div className="flex md:gap-4 sm:gap-3 gap-2">
         <Link href="#" className="hover:text-gray-800">Find Link Store</Link>
         <Link href="#" className="hover:text-gray-800">Help</Link>
-        <Link href="#" className="hover:text-gray-800">Join Us</Link>
-        <Link href="#" className="hover:text-gray-800">Sign In</Link>
+        <Link href="#Signup" className="hover:text-gray-800">Join Us</Link>
+        <Link href="#Loginform" className="hover:text-gray-800">Sign In</Link>
       </div>
     </div>
 
