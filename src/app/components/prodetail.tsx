@@ -1,12 +1,13 @@
 import { FaCartPlus } from "react-icons/fa";
 import { Button } from "../components/ui/button"; // Assuming you have a Button component
+import Image from "next/image";
 
 export default function NewPage() {
   return (
     <div className="flex justify-between p-5 sm:p-10">
       {/* Left Section with Image */}
       <div className="w-1/2 flex justify-center items-center">
-        <img
+        <Image
           src="/assests/pink.jpg" // Replace with your image URL
           alt="Product"
           className="w-auto h-auto max-w-full max-h-[650px]" // Adjust sizing to fit your layout
