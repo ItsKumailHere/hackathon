@@ -15,20 +15,20 @@ import p13 from "../../../../public/product/p (13).jpg";
 import p14 from "../../../../public/product/p (14).jpg";
 import p15 from "../../../../public/product/p (15).jpg";
 import p16 from "../../../../public/product/p (16).jpg";
-import p17 from "../../../../public/product/p (1).jpg";
-import p18 from "../../../../public/product/p (1).jpg";
-import p19 from "../../../../public/product/p (1).jpg";
-import p20 from "../../../../public/product/p (1).jpg";
-import p21 from "../../../../public/product/p (1).jpg";
-import p22 from "../../../../public/product/p (1).jpg";
-import p23 from "../../../../public/product/p (1).jpg";
-import p24 from "../../../../public/product/p (1).jpg";
-import p25 from "../../../../public/product/p (1).jpg";
-import p26 from "../../../../public/product/p (1).jpg";
-import p27 from "../../../../public/product/p (1).jpg";
-import p28 from "../../../../public/product/p (1).jpg";
-import p29 from "../../../../public/product/p (1).jpg";
-import p30 from "../../../../public/product/p (1).jpg";
+import p17 from "../../../../public/product/p (17).jpg";
+import p18 from "../../../../public/product/p (18).jpg";
+import p19 from "../../../../public/product/p (19).jpg";
+import p20 from "../../../../public/product/p (20).jpg";
+import p21 from "../../../../public/product/p (21).jpg";
+import p22 from "../../../../public/product/p (22).jpg";
+import p23 from "../../../../public/product/p (23).jpg";
+import p24 from "../../../../public/product/p (24).jpg";
+import p25 from "../../../../public/product/p (25).jpg";
+import p26 from "../../../../public/product/p (26).jpg";
+import p27 from "../../../../public/product/p (27).jpg";
+import p28 from "../../../../public/product/p (28).jpg";
+import p29 from "../../../../public/product/p (29).jpg";
+import p30 from "../../../../public/product/p (30).jpg";
 
 export interface ProductDetail {
   id: string; // Alphanumeric ID
@@ -41,7 +41,6 @@ export interface ProductDetail {
 }
 
 export const products: ProductDetail[] = [
-  
   {
     id: "P001",
     name: "Nike Air Force 1 Mid",
@@ -59,7 +58,7 @@ export const products: ProductDetail[] = [
     price: "₹4,995.00",
     imageUrl: p2,
     category: "men",
-    deal: "Just In"
+    deal: "Just In",
   },
 
   {
@@ -108,7 +107,6 @@ export const products: ProductDetail[] = [
     deal: "Promo Exculsion",
   },
 
-  
   {
     id: "P008",
     name: "Nike Dri-FIT UV Hyverse",
@@ -119,7 +117,6 @@ export const products: ProductDetail[] = [
     deal: "Sustainable Materials",
   },
 
-  
   {
     id: "P009",
     name: "Nike Court Vision Low",
@@ -129,7 +126,7 @@ export const products: ProductDetail[] = [
     category: "men",
     deal: "Just In",
   },
-  
+
   {
     id: "P010",
     name: "Nike Dri-FIT Ready",
@@ -140,34 +137,34 @@ export const products: ProductDetail[] = [
     deal: "Just In",
   },
 
-{
-  id: "P011",
-  name: "Nike One Leak Protection: Period",
-  description: "Women's Mid-Rise 18cm (approx.) Biker Shorts",
-  price: "₹3395.00",
-  imageUrl: p11,
-  category: "women",
-  deal: "Just In",
-},
+  {
+    id: "P011",
+    name: "Nike One Leak Protection: Period",
+    description: "Women's Mid-Rise 18cm (approx.) Biker Shorts",
+    price: "₹3395.00",
+    imageUrl: p11,
+    category: "women",
+    deal: "Just In",
+  },
 
-{
-id: "P012",
-name: "Nike Air Force 1 LV8 3",
-description: "Older Kids Shoe",
-price: "₹2495.00",
-imageUrl: p12,
-category: "men",
-deal: "Just In",
-},
+  {
+    id: "P012",
+    name: "Nike Air Force 1 LV8 3",
+    description: "Older Kids Shoe",
+    price: "₹2495.00",
+    imageUrl: p12,
+    category: "men",
+    deal: "Just In",
+  },
 
-{
-  id: "P013",
-  name: "Nike Blazer Low Plattorm",
-  description: "Women's Shoes",
-  price: "₹8195.00",
-  imageUrl: p13,
-  category: "women",
-  deal: "Just In",
+  {
+    id: "P013",
+    name: "Nike Blazer Low Plattorm",
+    description: "Women's Shoes",
+    price: "₹8195.00",
+    imageUrl: p13,
+    category: "women",
+    deal: "Just In",
   },
 
   {
@@ -178,26 +175,170 @@ deal: "Just In",
     imageUrl: p14,
     category: "women",
     deal: "Just In",
-    },
+  },
 
-    {
-      id: "P015",
-      name: "Nike Pro Dri-Fit",
-      description: "Men's Tight-Fit Sleeveless Top",
-      price: "₹1495.00",
-      imageUrl: p15,
-      category: "men",
-      deal: "Just In",
-      },
+  {
+    id: "P015",
+    name: "Nike Pro Dri-Fit",
+    description: "Men's Tight-Fit Sleeveless Top",
+    price: "₹1495.00",
+    imageUrl: p15,
+    category: "men",
+    deal: "Just In",
+  },
 
-      {
-        id: "P016",
-        name: "Nike Dunk Low Retro",
-        description: "Men's Shoes",
-        price: "₹8695.00",
-        imageUrl: p16,
-        category: "men",
-        deal: "Just In",
-        },
+  {
+    id: "P016",
+    name: "Nike Dunk Low Retro",
+    description: "Men's Shoes",
+    price: "₹8695.00",
+    imageUrl: p16,
+    category: "men",
+    deal: "Just In",
+  },
 
-]
+  {
+    id: "P017",
+    name: "Nike Air Max Sc",
+    description: "Women's Shoes",
+    price: "₹5995.00",
+    imageUrl: p17,
+    category: "men",
+    deal: "Just In",
+  },
+
+  {
+    id: "P018",
+    name: "Nike Dri-FIT UV Miller",
+    description: "Men's Short_sleeve runnign top",
+    price: "₹1695.00",
+    imageUrl: p18,
+    category: "men",
+    deal: "Just In",
+  },
+
+  {
+    id: "P019",
+    name: "Nike Air Max SYSTM",
+    description: "Older Kids' Shoes",
+    price: "₹6495.00",
+    imageUrl: p19,
+    category: "men",
+    deal: "Just In",
+  },
+
+  {
+    id: "P0120",
+    name: "Nike Alate All U",
+    description: "Women's Light-Supported Lightly Lined U-",
+    price: "₹2195.00",
+    imageUrl: p20,
+    category: "men",
+    deal: "Just In",
+  },
+
+  {
+    id: "P0121",
+    name: "Nike Court Legacy Lift",
+    description: "Women' shoes",
+    price: "₹7495.00",
+    imageUrl: p21,
+    category: "men",
+    deal: "Just In",
+  },
+
+  {
+    id: "P0122",
+    name: "Nike swoosh",
+    description: "Women's Medium-support Padded Sports",
+    price: "₹3095.00",
+    imageUrl: p22,
+    category: "men",
+    deal: "Just In",
+  },
+
+  {
+    id: "P0123",
+    name: "Nike SB Zoom Janoski OG+",
+    description: "Shoes",
+    price: "₹2195.00",
+    imageUrl: p23,
+    category: "men",
+    deal: "Just In",
+  },
+
+  {
+    id: "P0124",
+    name: "Nike Dri-FIT Run Division Rise 365",
+    description: "Men's running tank",
+    price: "₹3495.00",
+    imageUrl: p24,
+    category: "men",
+    deal: "Just In",
+  },
+
+  {
+    id: "P0125",
+    name: "Nike Dri-FIT Challenger",
+    description: "Men's 18cm(approx) 2-in-1 Shorts",
+    price: "₹2495.00",
+    imageUrl: p25,
+    category: "men",
+    deal: "Just In",
+  },
+
+  {
+    id: "P0126",
+    name: "Jordan Series ES",
+    description: "Men's shoes",
+    price: "₹7495.00",
+    imageUrl: p26,
+    category: "men",
+    deal: "Just In",
+  },
+
+
+  {
+    id: "P0127",
+    name: "Nike Outdoor Play",
+    description: "Older Kids' Oversized Woven Jacket",
+    price: "₹3895.00",
+    imageUrl: p27,
+    category: "men",
+    deal: "Just In",
+  },
+
+  {
+    id: "P0128",
+    name: "Nike Sportswear Trend",
+    description: "Older Kids' (Girls') High-Waisted Woven Shorts ",
+    price: "₹2495.00",
+    imageUrl: p28,
+    category: "men",
+    deal: "Just In",
+  },
+
+  {
+    id: "P0129",
+    name: "Nike Blazer Low '77 Jumbo",
+    description: "Women's shoes",
+    price: "₹8595.00",
+    imageUrl: p29,
+    category: "men",
+    deal: "Just In",
+  },
+
+  {
+    id: "P0130",
+    name: "Nike SB Force 58",
+    description: "Skate shoes",
+    price: "₹5995.00",
+    imageUrl: p30,
+    category: "men",
+    deal: "Just In",
+  },
+
+
+
+
+];
