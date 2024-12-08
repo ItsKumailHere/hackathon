@@ -9,6 +9,10 @@ import Sidebar from "./components/allproducts";
 import Prodetail from "./components/prodetail";
 import LoginForm from "./components/loginform";
 
+import Cart from "./components/cart";
+import Order from "./components/order";
+import SignUpForm from "./components/Signup";
+
 
 
 export default function Home() {
@@ -27,6 +31,12 @@ export default function Home() {
       <Prodetail/>
 
       <LoginForm/>
+
+      <SignUpForm/>
+
+      <Cart/>
+
+      <Order/>
     </div>
   );
 }

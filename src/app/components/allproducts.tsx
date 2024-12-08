@@ -49,15 +49,19 @@ export default function Sidebar() {
   <div>
     <ul className="space-y-3">
       {[
-        "Women's Fashion",
-        "Men's Fashion",
-        "Electronics",
-        "Home & Lifestyles",
-        "Medicines",
-        "Sports & Outdoor",
-        "Baby's & Toys",
-        "Groceries & Pets",
-        "Health & Beauty",
+
+            "Shoes",
+            "Sports Bras",
+            "Tops & T-Shirts",
+            "Hoodies & Sweatshirts",
+            "Jackets",
+            "Trousers & Tights",
+            "Shorts",
+            "Tracksuits",
+            "Jumpsuits & Rompers",
+            "Skirts & Dresses",
+            "Socks",
+            "Accessories & Equipment",
       ].map((item, index) => (
         <li
           key={index}
