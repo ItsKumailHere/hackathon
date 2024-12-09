@@ -4,7 +4,7 @@ import { FaFacebook,FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa";
 import { IoLocationOutline } from "react-icons/io5";
 
  
-export default function footer() {
+export default function Footer() {
   return (
     <footer className="bg-black text-white py-8 px-6">
   {/* Content Wrapper */}

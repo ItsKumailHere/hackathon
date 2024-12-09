@@ -4,7 +4,7 @@ import { FaSearch } from "react-icons/fa";
 import { FaRegHeart } from "react-icons/fa6";
 import { BiShoppingBag } from "react-icons/bi";
 
-export default function header() {
+export default function Header() {
   return ( 
     <header className="">
       {/* Top bar */}

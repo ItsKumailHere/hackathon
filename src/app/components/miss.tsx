@@ -1,4 +1,4 @@
-export default function flight() {
+export default function Flight() {
   return (
     <main className="m-4">
       <div>

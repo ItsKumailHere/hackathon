@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { products, ProductDetail } from "@/components/data/detail"; // Import the product data
 
-export default function BEST() {
+export default function Best() {
   // Filter the best products (best1, best2, best3)
   const bestProducts = products.filter(product => [1, 2, 3].includes(Number(product.id))); // Cast to number
 
