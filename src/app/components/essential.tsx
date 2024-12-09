@@ -1,6 +1,6 @@
 import { Button } from "./ui/button";
 
-export default function Featured() {
+export default function () {
   return (
     <main className="m-4">
       <div>

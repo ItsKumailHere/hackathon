@@ -1,13 +1,13 @@
 import { Button } from "./ui/button";
-export default function Featured() {
+export default function () {
   return (
     <main className="m-4">
       <div>
-        <h1 className="font-semibold text-xl py-5">Featured</h1>
+        <h1 className="font-semibold text-xl py-5"></h1>
       </div>
-      <div
+      <div 
         style={{
-          backgroundImage: "url('/assests/featured.png')",
+          backgroundImage: "url('/assests/.png')",
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",

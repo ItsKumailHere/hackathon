@@ -1,7 +1,6 @@
 'use client';
 
 import Image from 'next/image';
-import { IoIosArrowForward } from 'react-icons/io';
 import { products } from './data/detail2'; // Assuming this is where `detail2` is located
 import { ProductDetail } from './data/detail2';
 
