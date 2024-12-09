@@ -1,7 +1,7 @@
-import React from 'react';
+import Link from "next/link";
 
 export default function Last() {
-  return (
+  return ( 
     <div>
       <footer className="text-gray-600 body-font">
         <div className="container px-5 pl-20 pr-5 py-24 mx-auto flex flex-col items-center md:flex-row md:items-start">
@@ -76,16 +76,16 @@ export default function Last() {
               </h2>
               <nav className="list-none mb-10">
                 <li>
-                  <a className="text-gray-600 hover:text-gray-800">Infant & Toddler Shoes</a>
+                  <Link href={"#"} className="text-gray-600 hover:text-gray-800">Infant & Toddler Shoes</Link>
                 </li>
                 <li>
-                  <a className="text-gray-600 hover:text-gray-800">Kids' Shoes</a>
+                  <Link href={"#"} className="text-gray-600 hover:text-gray-800">Kids' Shoes</Link>
                 </li>
                 <li>
-                  <a className="text-gray-600 hover:text-gray-800">Kids' Jordan Shoes</a>
+                  <Link href={"#"} className="text-gray-600 hover:text-gray-800">Kids' Jordan Shoes</Link>
                 </li>
                 <li>
-                  <a className="text-gray-600 hover:text-gray-800">Kids' Basketball Shoes</a>
+                  <Link href={"#"} className="text-gray-600 hover:text-gray-800">Kids' Basketball Shoes</Link>
                 </li>
               </nav>
             </div>

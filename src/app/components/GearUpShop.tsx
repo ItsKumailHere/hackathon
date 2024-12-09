@@ -7,7 +7,7 @@ export function GearUpShop() {
   const gearUpProducts = products.filter(product => [4,5,6,7].includes(Number(product.id))); // Cast to number
 
 
-  return (
+  return ( 
     <div className="container mx-auto px-4 py-8">
       <h1 className="text-3xl font-bold mb-8">Gear Up.</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">

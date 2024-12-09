@@ -31,7 +31,7 @@ export function ProductCard({ product }: ProductCardProps) {
           <div className="self-start font-medium text-right text-neutral-900">
             {product.price}
           </div>
-        </div>
+        </div> 
       </div>
     );
 

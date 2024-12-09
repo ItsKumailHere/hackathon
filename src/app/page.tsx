@@ -1,5 +1,5 @@
-import BEST from "./components/BESTAIR";
-import Featured from "./components/FEATURED";
+import BEST from "./components/Best";
+import Featured from "./components/Featured";
 import Hero from "./components/hero";
 import { GearUpShop } from '@/components/GearUpShop'
 import Last from "./components/last";
@@ -9,8 +9,8 @@ import Sidebar from "./components/allproducts";
 import Prodetail from "./components/prodetail";
 import LoginForm from "./components/loginform";
 
-import Cart from "./components/cart";
-import Order from "./components/order";
+import Cart from "./cart";
+import Order from "./components/order"; 
 import SignUpForm from "./components/Signup";
 
 
@@ -26,17 +26,17 @@ export default function Home() {
       <Essential/>
       <Last/>
 
-      <Sidebar/>
+      {/* <Sidebar/> */}
 
       <Prodetail/>
 
-      <LoginForm/>
+      {/* <LoginForm/> */}
 
-      <SignUpForm/>
+      {/* <SignUpForm/> */}
 
-      <Cart/>
+      {/* <Cart/> */}
 
-      <Order/>
+      {/* <Order/> */}
     </div>
   );
 }

@@ -10,9 +10,11 @@ export default function NewPage() {
         <Image
           src="/assests/pink.jpg" // Replace with your image URL
           alt="Product"
+          width={100}
+          height={100}
           className="w-auto h-auto max-w-full max-h-[650px]" // Adjust sizing to fit your layout
         />
-      </div>
+      </div> 
 
       {/* Right Section with Text and Button */}
       <div className="w-1/2 flex justify-center items-left">

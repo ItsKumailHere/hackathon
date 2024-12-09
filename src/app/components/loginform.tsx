@@ -2,10 +2,10 @@
 
 import Image from 'next/image'
 import Link from 'next/link'
-import { useState } from 'react'
+import { useState } from 'react' 
 
 export default function LoginForm() {
-  const [isChecked, setIsChecked] = useState(false)
+  const [isChecked, setIsChecked] = useState(false) 
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-white">

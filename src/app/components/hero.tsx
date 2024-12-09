@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import React from 'react';
 import { Button } from "./ui/button"
-
+ 
 export default function Hero() {
   return (
     <div className="w-full overflow-x-hidden">

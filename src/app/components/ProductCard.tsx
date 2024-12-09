@@ -3,12 +3,13 @@
 import Image from 'next/image';
 import { ProductDetail } from './data/detail';
 
-interface ProductCardProps {
+interface ProductCardProps { 
   product: ProductDetail;
 }
 
 export function ProductCard({ product }: ProductCardProps) {
   return (
+    
     <div
       key={product.id}
       className="flex flex-col text-sm sm:text-base leading-relaxed max-w-[150px] sm:max-w-[250px] lg:max-w-[300px]"

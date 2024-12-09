@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 import Image from "next/image";
 
-const Order = () => {
+const  Order = () => { 
   const [pan, setPan] = useState("");
   const [isChecked, setIsChecked] = useState(false);
 

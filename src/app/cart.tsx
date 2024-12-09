@@ -1,8 +1,9 @@
 'use client'
 
 import React from 'react'
-import Image from 'next/image'
+import Image from 'next/image' 
 import { Heart, Trash2 } from 'lucide-react'
+import Link from 'next/link'
 
 export default function Cart() {
   return (
@@ -18,7 +19,7 @@ export default function Cart() {
         {/* Bag Section */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Bag Items */}
-          <div className="md:col-span-2 space-y-8">
+          <div className="md:col-span-2 space-y-8"> 
             <h2 className="text-2xl font-bold">Bag</h2>
             {/* Item 1 */}
             <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between pb-8 border-b">
@@ -94,9 +95,12 @@ export default function Cart() {
               <p>Total</p>
               <p>₹ 20,890.00</p>
             </div>
+            <Link href={"/checkout"}>
             <button className="w-full bg-black text-white font-medium py-4 rounded-[30px] mt-6">
+              
               Member Checkout
             </button>
+            </Link>
           </div>
         </div>
       </div>

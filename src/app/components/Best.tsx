@@ -16,7 +16,7 @@ export default function BEST() {
             key={product.id}
             className="flex flex-col text-sm sm:text-base leading-relaxed max-w-[150px] sm:max-w-[250px] lg:max-w-[300px]"
           >
-            <Image
+            <Image 
               src={product.imageUrl}
               alt={product.name}
               width={300}
