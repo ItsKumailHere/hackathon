@@ -51,7 +51,7 @@ export const products: ProductDetail[] = [
     price: "₹3895",
     imageUrl: G1,
     category: "men",
-  },
+  }, 
   {
     id: 5,
     name: "Nike Dri-FIT ADV Challenger",

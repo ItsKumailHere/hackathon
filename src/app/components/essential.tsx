@@ -1,7 +1,7 @@
 import { Button } from "./ui/button";
 
 export default function Essentials() {
-  return (
+  return ( 
     <main className="m-4">
       <div>
       <div className="flex justify-center items-center flex-col gap-3 p-10">
