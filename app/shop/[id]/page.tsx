@@ -39,12 +39,11 @@ export async function generateStaticParams() {
   ];
 }
 
-import ShopComp from "../../../components/shopComp";
 import { PageProps } from "@/.next/types/app/page";
 
-export default function Func({ params }: { params: { id: PageProps } }) {
-  const id = params?.id ? ShopComp(params.id) : 0;
-  const product = data[id ? id : 0];
+export default function Func({ params }: PageProps)  {
+  const id = params.id;
+  const product = data[id];
 
   return (
     <main className="flex h-screen justify-around items-center gap-3 m-28">
